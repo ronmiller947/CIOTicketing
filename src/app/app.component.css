@@ -1,0 +1,87 @@
+.header{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 160px;
+    background-color: #243b69;
+    overflow-x: hidden;
+    padding-top: 20px;
+    opacity:.9;
+}
+.headerTitleLeft{
+    position:absolute;
+    top:-22px;
+    left:175px;
+    z-index: 3;
+    color:white;
+}
+.headerTitleLeftPara{
+    position:absolute;
+    top:23px;
+    left:175px;
+    z-index: 3;
+    color:white;
+    font-size: medium;
+}
+.header a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+.sideBarLinkImage{
+    width:150px; 
+    height:35px;
+    position:fixed;
+    left:6px;
+}
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #243b69;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sideBarLinkFirst {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #f1f1f1d8;
+    display: block;
+    margin-top:50px;
+}
+.sideBarLinkFirst:hover {
+    color: #f1f1f1;
+    background-color: black;
+}
+.sideBarLink {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #f1f1f1d8;
+    display: block;
+}
+
+.sideBarLink:hover {
+    color: #f1f1f1;
+    background-color: black;
+}
+
+.main {
+    margin-top: 80px;
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

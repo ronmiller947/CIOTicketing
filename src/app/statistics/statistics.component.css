@@ -1,0 +1,21 @@
+.headerTitle{
+    position:absolute;
+    top:-20px;
+    right:50px;
+    z-index: 3;
+    color:white;
+}
+.statisticsBTN{
+    position:absolute;
+    left:178px;
+    z-index: 5;
+}
+.statsTable{
+    font-size:medium;
+    position: absolute;
+    top:130px;
+    padding:12px;
+}
+.row1{
+    text-align: right;
+}

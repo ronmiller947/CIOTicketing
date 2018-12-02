@@ -1,0 +1,58 @@
+<div class="headerTitle"><h3>{{headerTitle}}</h3></div>
+<dx-button class="statisticsBTN" text='Go Back' routerLink="/Admin"></dx-button>
+<table class="statsTable" CELLSPACING=0>
+    <tr>
+      <td colspan="2">
+        Average Completion Time :
+      </td>
+      <td colspan="2">
+        {{avgCompTime}}
+      </td>
+    </tr>
+    <tr>
+    <td class="row1">
+      Tickets in Progress :
+    </td>
+    <td>
+      {{inProgress}}
+    </td>
+    <td>
+      {{inProgressPrec}}
+    </td>
+  </tr>
+  <tr>
+    <td class="row1">
+        Tickets Pending :
+    </td>
+    <td>
+        {{pending}}
+    </td>
+    <td>
+      {{pendingPrec}}
+    </td>
+  </tr>
+  <tr>
+    <td class="row1">
+        Tickets Completed :
+    </td>
+    <td>
+        {{completed}}
+    </td>
+    <td>
+      {{completedPrec}}
+    </td>
+  </tr>
+  
+  <tr>
+    <td class="row1">
+        Total Tickets :
+    </td>
+    <td>
+        {{totalTickets}}
+    </td>
+  </tr>
+</table>
+
+
+
+

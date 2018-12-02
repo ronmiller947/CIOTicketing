@@ -1,0 +1,7 @@
+.headerTitle{
+    position:absolute;
+    top:-20px;
+    right:50px;
+    z-index: 3;
+    color:white;
+}
